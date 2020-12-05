@@ -114,7 +114,9 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     libwifi-hal \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    WifiOverlay
+
 
 # Tethering
 PRODUCT_PACKAGES += \

@@ -41,6 +41,9 @@ telephony.lteOnCdmaDevice=1
 # ipv6
 ro.mtk_tetheringipv6_support=1
 
+# Boot
+sys.vendor.shutdown.waittime=500
+
 # Playstore
 ro.com.google.clientidbase=android-oppo
 

@@ -154,14 +154,9 @@ ro.surface_flinger.set_display_power_timer_ms=10000
 ro.surface_flinger.set_touch_timer_ms=5000
 ro.surface_flinger.set_idle_timer_ms=9000
 
-# Media
-media.stagefright.thumbnail.prefer_hw_codecs=true
-debug.stagefright.ccodec=0
-
 # Memory optimization
 ro.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
 ro.sys.fw.bservice_age=5000
 ro.am.reschedule_service=true
-ro.sys.fw.bg_apps_limit=24 
-
+ro.sys.fw.bg_apps_limit=24

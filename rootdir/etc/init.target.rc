@@ -21,6 +21,11 @@ service kpoc_charger /system/bin/kpoc_charger
 on post-fs
 	mount none /system/etc/usb_audio_policy_configuration.xml /vendor/etc/usb_audio_policy_configuration.xml bind
 
+on property:sys.boot_completed=1
+    # Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
+
 on boot
 
     # Touchscreen/DT2W

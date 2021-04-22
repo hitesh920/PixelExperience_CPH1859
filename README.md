@@ -1,4 +1,4 @@
-# LineageOS 18.0 Device Tree
+# LineageOS 18.1 Device Tree
 Device Tree for Realme 1. The 3GB variant has codename CPH1861 whereas the 4/6GB variants have codename CPH1859.
 
 ### Spec Sheet

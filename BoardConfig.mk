@@ -1,6 +1,6 @@
 #
-# Copyright 2020 The Android Open Source Project
-# Copyright (C) 2020 The LineageOS Project
+# Copyright 2021 The Android Open Source Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,13 +20,8 @@ DEVICE_PATH := device/oppo/CPH1859
 
 BOARD_VENDOR := oppo
 
-# TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
-
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := CPH1859,CPH1861
-
-# system-as-root aka SAR
-# BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6771
@@ -79,7 +74,6 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --second_offset $(BOARD_SECOND_OFFSET) --tags_offset $(BOARD_TAGS_OFFSET) --header_version $(BOARD_BOOT_HEADER_VERSION)
-# TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/oppo/mt6771
 TARGET_KERNEL_CONFIG := oppo6771_17065_defconfig
 TARGET_BOARD_SUFFIX := _64
@@ -144,4 +138,3 @@ BOARD_VNDK_VERSION := current
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 BUILD_WITHOUT_VENDOR := true
 TARGET_COPY_OUT_PRODUCT := system/product
-

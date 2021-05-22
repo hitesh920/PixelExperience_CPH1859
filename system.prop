@@ -19,6 +19,10 @@
 # System Properties for Realme 1: CPH1859
 #
 
+# LCD density
+ro.sf.lcd_density=480
+
+
 # Cam2Api
 persist.camera.HAL3.enabled=1
 

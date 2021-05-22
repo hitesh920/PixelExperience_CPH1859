@@ -86,6 +86,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey \
     android.hardware.drm@1.1-service.widevine
 
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.manager-V1.0-java \

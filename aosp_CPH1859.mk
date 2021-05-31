@@ -29,8 +29,7 @@ $(call inherit-product, device/oppo/CPH1859/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # PixelExperience specifics
-TARGET_GAPPS_ARCH=arm64
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation
 TARGET_SCREEN_WIDTH := 1080

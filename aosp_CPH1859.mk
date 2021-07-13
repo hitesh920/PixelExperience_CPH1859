@@ -52,4 +52,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="CPH1859" \
     PRIVATE_BUILD_DESC="full_oppo6771_17065-user 9 PPR1.180610.011 eng.root.20200509.060522 release-keys"
 
-BUILD_FINGERPRINT := "google/flame/flame:11/RQ2A.210505.002/7246365:user/release-keys"
+BUILD_FINGERPRINT := "google/flame/flame:11/RQ3A.210705.001/7380771:user/release-keys"
